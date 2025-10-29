@@ -129,7 +129,7 @@ if prompt:
     st.session_state.messages.append({"role": "user", "content": prompt})
 
     # Process the request
-    api_url = "https://emea.snaplogic.com/api/1/rest/slsched/feed/ConnectFasterInc/projects/Chris%20Ward/Driver_Test?bearer_token=s8QNhXdGmBpQB9CB8ZS0piOuDze6sujC"
+    api_url = "https://prodeu-connectfasterinc-cloud-fm.emea.snaplogic.io/api/1/rest/feed-master/queue/ConnectFasterInc/projects/Chris%20Ward/Driver_Task_Ultra?bearer_token=7XTRF28rachuuepVujqBJpinQNijorlh"
 
     # Prepare payload
     payload = {
